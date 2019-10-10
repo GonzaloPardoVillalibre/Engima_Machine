@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Enigma_v3" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ProyectoIntegrador_v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ProyectoIntegrador_v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Config/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Config/config.h" />
+		<Unit filename="Config/listaConfig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Config/listaConfig.h" />
+		<Unit filename="LibroClaves/libroClaves.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LibroClaves/libroClaves.h" />
+		<Unit filename="Maquina/Enigma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Maquina/Enigma.h" />
+		<Unit filename="Maquina/cifrado.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Maquina/cifrado.h" />
+		<Unit filename="Maquina/interfaz.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Maquina/interfaz.h" />
+		<Unit filename="Maquina/reflector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Maquina/reflector.h" />
+		<Unit filename="Maquina/rotores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Maquina/rotores.h" />
+		<Unit filename="Maquina/stecker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Maquina/stecker.h" />
+		<Unit filename="auxiliar/auxiliar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="auxiliar/auxiliar.h" />
+		<Unit filename="auxiliar/punto.h" />
+		<Unit filename="main/mainEnigma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main/menus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main/menus.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
